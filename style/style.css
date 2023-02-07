@@ -1,0 +1,135 @@
+/*GENERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+:root{
+    --primary-color: #FFFFFF;
+    --bg-section: #F6F6F6;
+    --bg-footer:  #23272A;
+    --dark-text: #000000;
+    --bg-header: #2A5EE8;
+    --bg-light: #7289DA;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+
+ul.menu{
+    width: 55%;
+    margin: 0 auto;
+}
+
+ul.menu li{
+    text-transform: capitalize; 
+}
+
+.align-center{
+    align-items: center;
+}
+
+.button{
+    background-color: var(--primary-color);
+    color: var(--dark-text);
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    
+    
+}
+
+.logo{
+   display: inline-block;
+    padding: 1rem;
+}
+
+.bg-dark{
+    background-color: var(--bg-footer);
+    color: var(--primary-color);
+}
+
+.even{
+    background-color: var(--bg-section);
+}
+
+.reverse{
+    flex-flow: row-reverse wrap;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.left{
+    width: 60%;
+}
+
+.right{
+    width: 40%;
+}
+
+/*HEADER*/
+header{
+    background-color: var(--bg-header);
+    color: var(--primary-color);
+}
+
+#hero{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 530px;
+    
+}
+
+.text-header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 55%;
+    text-align: center;
+}
+
+/*FOOTER*/
+footer{
+    background-color: var(--bg-footer);
+    color: var(--primary-color);
+}
+
+
+
+
+{
+
+}
