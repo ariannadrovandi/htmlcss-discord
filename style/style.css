@@ -146,6 +146,7 @@ header{
 .content{
     max-width: 700px;
     color: var(--primary-color);
+    
 }
 
 .content p{
@@ -154,6 +155,11 @@ header{
 }
 
 
+/*MAIN*/
+
+/*h2{
+    color: var(--dark-text);
+}*/
 
 /*FOOTER*/
 footer{
