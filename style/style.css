@@ -174,6 +174,32 @@ h2{
     width: 330px;
 }
 
+.text-b{
+    width: 850px;
+    text-align: center;
+}
+
+/*.text-down{
+    width: 600px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}*/
+ 
+h3{
+    color: var(--dark-text);
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.stars{
+    background-image: url(../img/stars.svg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+}
+
 /*FOOTER*/
 footer{
     background-color: var(--bg-footer);
