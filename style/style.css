@@ -98,7 +98,15 @@ ul.menu li{
     margin: 40px 0 ; 
 }
 
+.wave{
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    filter: opacity(0.04);
+}
 
+.wave-rotate{
+    transform: rotate(180deg);
+}
 
 /*ANCORE*/
 nav a, .button{
@@ -116,7 +124,7 @@ header nav a, .button .button-small{
     background-color: var(--primary-color);
     color: var(--dark-text);
     border-radius: 15px;
-    padding: ;
+    padding: 10px;
     font-size: 14px;
     text-decoration: none;  
 }
@@ -126,15 +134,11 @@ header nav a, .button .button-small{
     color: var(--primary-color);
 }
 
-.wave{
-    height: 100px;
-    background-image: url(../img/wave.svg);
-    filter: opacity(0.04);
+.bg-light{
+    background-color: var(--bg-light);
+    color: var(--primary-color);
 }
 
-.wave-rotate{
-    transform: rotate(180deg);
-}
 
 /*HEADER*/
 header{
@@ -153,12 +157,19 @@ header{
 .content{
     max-width: 700px;
     color: var(--primary-color);
+    padding: 100px 0;
     
 }
 
 .content p{
     padding: 30px 15px;
     line-height: 1.8;
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: 40px;
+    
 }
 
 
