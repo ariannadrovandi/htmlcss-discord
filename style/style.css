@@ -13,6 +13,8 @@
     --dark-text: #000000;
     --bg-header: #2A5EE8;
     --bg-light: #7289DA;
+    --bg-light-hover: #959aeb; 
+    --bg-dark-hover: #1d1b1b;
 }
 
 .container{
@@ -107,6 +109,27 @@ ul.menu li{
 .wave-rotate{
     transform: rotate(180deg);
 }
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.button-white:hover{
+    color: var(--bg-light-hover);
+    box-shadow: 5px 5px 5px #25232385;
+}
+
+.bg-light:hover{
+    background-color: var(--bg-light-hover);
+    box-shadow: 5px 5px 5px #25232385;
+}
+
+.bg-dark:hover{
+    background-color: var(--bg-dark-hover);
+    box-shadow: 5px 5px 5px #25232385;
+}
+
+
 
 /*ANCORE*/
 nav a, .button{
@@ -249,6 +272,7 @@ li i{
     padding-top: 15px;
     font-size: 14px;
 }
+
 
 
 {
