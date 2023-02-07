@@ -218,6 +218,37 @@ footer{
     color: var(--primary-color);
 }
 
+.list-1{
+    width: 300px;
+}
+
+.title-footer{
+    color: var(--bg-light);
+    font-size: 30px;
+}
+
+.bandiera-ita{
+    width: 20px;
+}
+
+#lingua{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: none;
+}
+
+li i{
+    padding: 10px;
+}
+
+.light{
+    color: var(--bg-light);
+}
+
+.list-ft li{
+    padding-top: 15px;
+    font-size: 14px;
+}
 
 
 {
